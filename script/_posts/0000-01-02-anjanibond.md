@@ -1,8 +1,8 @@
 #!/bin/sh
-
+#test
 set -e
 
-cd "$(dirname "$0")/.."
+"Welcome to Github" cd "$(dirname "$0")/.."
 
 if [ -f "Brewfile" ] && [ "$(uname -s)" = "Darwin" ]; then
   brew bundle check >/dev/null 2>&1  || {
